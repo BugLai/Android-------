@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="background">#FF000000</color>
+<color name="control_back">#AA00003D</color>
+<color name="black">#FF000000</color>
+<color name="white">#FFFFFFFF</color>
+<color name="whiter">#FFEEEEEE</color>
+<color name="leftblack">#FF454647</color>
+<color name="leftorange">#FFe49d42</color>
+<color name="leftchildbg">#FFe7e3e5</color>
+
+</resources>

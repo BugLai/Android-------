@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ExpandableView Styleable -->
+	<declare-styleable name="ExpandableView">
+    	<attr name="handle" format="reference" />
+    	<attr name="content" format="reference" />
+	</declare-styleable>
+
+	<!-- MultiExpandableView Styleable -->
+    <declare-styleable name="MultiExpandableView">
+    	<attr name="expandedView" format="reference" />
+    	<attr name="orientation">
+    		<enum name="horizontal" value="0" />
+    		<enum name="vertical" value="1" />
+    	</attr>
+	</declare-styleable>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/transparent"
+>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:background="@drawable/title"
+		android:gravity="right"
+	>
+	<!-- 
+		<Button android:id="@+id/course_level_hori"
+			style="@style/path_button_style"
+		/> -->
+		 
+		<Button android:id="@+id/btn_setting"
+				style="@style/list_item_button_style"
+				android:background="@drawable/btn_setting"
+				android:text="@string/setting"
+				android:textColor="@color/white"
+	    	/>
+		<Button android:id="@+id/btn_editor"
+				style="@style/list_item_button_style"
+				android:background="@drawable/btn_setting"
+				android:text="@string/edit"
+				android:textColor="@color/white"
+	    	/>
+		<Button android:id="@+id/btn_complete"
+				style="@style/list_item_button_style"
+				android:background="@drawable/btn_setting"
+				android:text="@string/complete"
+				android:textColor="@color/white"
+				android:visibility="gone"
+	    	/>
+	</LinearLayout>
+	<FrameLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/lanse_bg2"
+	>
+		<ListView android:id="@+id/course_list_lesson"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+	    	android:listSelector="@android:color/transparent"
+	    	android:background="@android:color/transparent"
+	    	android:drawSelectorOnTop="false"
+	    	android:cacheColorHint="@android:color/transparent"
+	    	android:divider="@color/leftchildbg"
+	    	android:dividerHeight="1dp"
+	    	android:layout_marginRight="10dp"
+		/>
+	</FrameLayout>
+</LinearLayout>

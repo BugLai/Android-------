@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="#D6BD9C"
+    android:gravity="center" >
+    <com.tqxktbyw.videoplayer.VideoView
+        android:id="@+id/lesson_player"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="62dip"
+        android:layout_marginRight="56dip"
+        android:layout_marginTop="0dip"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+    			<TextView
+                    android:id="@+id/vtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lesson_player"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="28sp" android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lesson_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="62dip"
+        android:layout_marginRight="56dip"
+        android:layout_marginTop="0dip"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@android:color/transparent"
+        android:fadingEdgeLength="0dp"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/my_web_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="62dip"
+        android:layout_marginRight="58dip"
+        android:layout_marginTop="0dip" />
+
+    <RelativeLayout
+        android:id="@+id/m_ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dip"
+        android:layout_marginRight="58dip"
+        android:layout_marginTop="0dip"
+        android:visibility="gone"
+        >
+
+        <RelativeLayout
+            android:id="@+id/r_title"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/title_beijing" >
+
+            <RelativeLayout
+                android:id="@+id/l_relate"
+                android:layout_width="500dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/titles"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bei"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/mtitle"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:hint="@string/ititle"
+                    android:singleLine="true"
+                    android:layout_toRightOf="@+id/titles" >
+                </EditText>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/l_relate" >
+
+                <GridView
+                    android:id="@+id/gv_buttom_menu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/r_title" >
+
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="600dp"
+                android:gravity="left"
+                android:hint="@string/icontent"
+                android:maxLines="1000"
+                android:scrollbars="vertical"
+                android:singleLine="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--
+		android:layout_x="0.0dip"
+		android:layout_y="0.0dip"
+		android:layout_weight="1.0"
+    -->
+    <LinearLayout
+        android:layout_width="62dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/remember"
+            style="@style/clip_button_style"
+            android:contentDescription="@string/ji"
+            android:src="@layout/btn_remember" />
+
+        <ImageButton
+            android:id="@+id/reduce"
+            style="@style/clip_button_style"
+            android:contentDescription="@string/jiang"
+            android:src="@layout/btn_reduce" />
+
+        <ImageButton
+            android:id="@+id/test"
+            style="@style/clip_button_style"
+            android:contentDescription="@string/ce"
+            android:src="@layout/btn_test" />
+
+        <ImageButton
+            android:id="@+id/ask"
+            style="@style/clip_button_style"
+            android:contentDescription="@string/da"
+            android:src="@layout/btn_ask" />
+        <!-- android:background="@android:color/transparent" -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="58dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rightbar"
+        android:orientation="vertical" >
+
+        <!--  -->
+
+        <ImageButton
+            android:id="@+id/gkjx"
+            style="@style/clip_button_style_r"
+            android:contentDescription="@string/jiexi"
+            android:src="@layout/btn_gkjx" />
+
+        <ImageButton
+            android:id="@+id/zkjx"
+            style="@style/clip_button_style_r"
+            android:contentDescription="@string/jiexi"
+            android:src="@layout/btn_zkjx" />
+
+        <ImageButton
+            android:id="@+id/kwtz"
+            style="@style/clip_button_style_r"
+            android:contentDescription="@string/tuozhan"
+            android:src="@layout/btn_kwtz" />
+
+        <ImageButton
+            android:id="@+id/xfly"
+            style="@style/clip_button_style_r"
+            android:contentDescription="@string/xuefa"
+            android:src="@layout/btn_xfly" />
+
+        <ImageButton
+            android:id="@+id/tbtl"
+            style="@style/clip_button_style_r"
+            android:contentDescription="@string/tingli"
+            android:src="@layout/btn_tbtl" />
+    </LinearLayout>
+
+</RelativeLayout>

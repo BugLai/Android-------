@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_functions">
+        <item>设置</item>
+        <!-- 
+        <item>公告</item>
+        <item>关于</item>
+        <item>帮助</item>
+         -->
+    </string-array>
+
+    <string-array name="download_manager">
+        <item>下载中</item>
+        <item>已下载</item>
+    </string-array>
+
+    <string-array name="settings_functions">
+        <item>记住上次课程目录位置</item>
+        <item>保存下载记录</item>
+        <item>下载询问</item>
+        <item>常用资源站点选择</item>
+    </string-array>
+    <string-array name="setting_site">
+        <item>电信</item>
+        <item>网通</item>
+    </string-array>
+    <array name="info">
+        <item>从图库中选择 </item>
+        <item>默认背景</item>
+    </array>
+    <array name="insertpic">
+        <item>从图库中插入</item>
+        <item>现拍</item>
+    </array>
+    <array name="operation">
+        <item>删除问题</item>
+        <item>收藏问题</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src\com\tqxktbyw\study\packer\ListFile.java" />
+    </issue>
+    <issue id="ResourceAsColor" severity="ignore" />
+</lint>

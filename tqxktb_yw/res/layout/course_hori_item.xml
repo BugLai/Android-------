@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="30dip"
+	android:paddingRight="10dip"
+	android:background="@layout/right_background"
+>
+	<TextView android:id="@+id/hori_text"
+		style="@style/list_item_text_style"
+	/>
+	<Button style="@style/list_item_button_style"
+	    android:clickable="false"
+	    android:focusable="false"
+	    android:focusableInTouchMode="false"
+	    android:duplicateParentState="true"
+	    android:text="@string/enter_lesson"
+	    android:layout_alignParentRight="true"
+	/>
+</RelativeLayout>

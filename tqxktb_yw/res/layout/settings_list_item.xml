@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+	android:background="@drawable/right_background"
+>
+	<LinearLayout android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	>
+		<TextView android:id="@+id/setting_title"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:singleLine="true"
+		    android:paddingLeft="6dip"
+		    android:textColor="@color/black"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		/>
+		<TextView android:id="@+id/setting_text"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:singleLine="true"
+		    android:paddingLeft="6dip"
+		    android:textColor="@color/black"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		/>
+	</LinearLayout>
+	<CheckBox android:id="@+id/setting_check"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center_vertical"
+	    android:paddingRight="6dip"
+		android:clickable="false"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:duplicateParentState="true"
+	    android:button="@layout/btn_checkbox"
+	/>
+</LinearLayout>
+-->
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_text"
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:textSize="16sp"
+    android:textColor="@color/black"
+    android:gravity="center_vertical"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip"
+    android:singleLine="true"
+    android:checkMark="@layout/btn_checkbox"
+	android:background="@layout/right_background"
+/>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:gravity="center">
+		<!-- 标题 -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:gravity="center">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="课程登录"
+				android:gravity="center" android:textSize="28sp" />
+		</LinearLayout>
+		<!-- 帐号 -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:padding="5dip">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="真实姓名："
+				android:gravity="center" android:layout_weight="3" />
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:hint="真实姓名..."
+				android:id="@+id/edtUserName" 
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:padding="5dip">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="邮箱："
+				android:gravity="center" android:layout_weight="3" />
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:hint="邮箱登录..."
+				android:id="@+id/edtUserId" 
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:padding="5dip">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="电话："
+				android:gravity="center" android:layout_weight="3" />
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:hint="真实姓名..."
+				android:id="@+id/edtUserName" 
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:padding="5dip">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="QQ："
+				android:gravity="center" android:layout_weight="3" />
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:hint="真实姓名..."
+				android:id="@+id/edtUserName" 
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:padding="5dip">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="联系地址："
+				android:gravity="center" android:layout_weight="3" />
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:hint="真实姓名..."
+				android:id="@+id/edtUserName" 
+				android:layout_weight="1" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:gravity="center">
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="登 录" android:id="@+id/btnLogin" />
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="退 出" 
+				android:layout_marginLeft="10dip"
+				android:id="@+id/btnExit" 
+				 />
+		</LinearLayout>
+</LinearLayout>

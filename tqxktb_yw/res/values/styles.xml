@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 左侧 全部课程、我的课程、下载管理、其它功能 按钮 -->
+    <style name="center_align_style">
+    	<item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">48dip</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:textSize">16sp</item>
+    </style>
+
+	<!-- 右侧列表 文字部分 （学科、版本、课件） -->
+	<style name="list_item_text_style">
+    	<item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">30dip</item>
+    	<item name="android:layout_centerVertical">true</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:gravity">center_vertical</item>
+    	<item name="android:textColor">@color/black</item>
+    	<item name="android:layout_alignParentLeft">true</item>
+    	<item name="android:textSize">16sp</item>
+
+    </style>
+
+	 <!-- 右侧列表 按钮 （本地打开、下载、已下载、打开、删除 等） -->
+	<style name="list_item_button_style">
+    	<item name="android:layout_width">80dip</item>
+	    <item name="android:layout_height">30dip</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:focusable">false</item>
+    	<item name="android:layout_centerVertical">true</item>
+    	<item name="android:background">@layout/btn_default</item>
+    	<item name="android:textSize">16sp</item>
+    </style>
+
+	<!-- 左侧 全部课程、我的课程等下的 年级、学科、版本 列表 的按钮
+         <item name="android:windowBackground">@drawable/btn_normal</item>//此对话框的背景-->
+	<style name="path_button_style">
+    	<item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">40dip</item>
+	    <item name="android:layout_gravity">center_vertical</item>
+	    <item name="android:background">@layout/course_background</item>
+	    <item name="android:minWidth">80dip</item>
+	    <item name="android:layout_marginRight">10dip</item>
+    	<item name="android:textSize">16sp</item>
+    </style>
+    <style name="clip_button_style">
+    	<item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">160dip</item>
+	    <item name="android:adjustViewBounds">true</item>
+	    <item name="android:background">@android:color/transparent</item>
+	    <item name="android:paddingLeft">5dp</item>
+	    <item name="android:paddingRight">0dp</item>
+	    <item name="android:paddingTop">0dp</item>
+    	<item name="android:paddingBottom">0dp</item>
+    	<item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="clip_button_style_r">
+    	<item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">160dip</item>
+	    <item name="android:adjustViewBounds">true</item>
+	    <item name="android:background">@android:color/transparent</item>
+	    <item name="android:paddingLeft">0dp</item>
+	    <item name="android:paddingRight">5dp</item>
+	    <item name="android:paddingTop">0dp</item>
+    	<item name="android:paddingBottom">0dp</item>
+    	<item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="Theme_Transparent"  parent="android:Theme">
+         <item name="android:windowIsTranslucent">true</item>//对话框是否透明
+         <item name="android:windowContentOverlay">@null</item>//对话框是否有遮盖
+         <item name="android:windowNoTitle">true</item>//对话框无标题
+         <item name="android:windowIsFloating">true</item>//对话框是否浮动
+         <item name="android:backgroundDimEnabled">false</item>
+   </style>
+</resources>

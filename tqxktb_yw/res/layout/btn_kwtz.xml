@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true"
+         android:drawable="@drawable/suject_right_btn_04_a" />
+     <item android:drawable="@drawable/suject_right_btn_04_b" />d" /> <!-- default --> 
+    
+</selector>
